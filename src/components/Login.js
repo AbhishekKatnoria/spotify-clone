@@ -1,12 +1,14 @@
-import React from 'react';
-import './Login.css';
+import React from "react";
+import "./Login.css";
+import spotifyImage from "../assets/spofity-image.jpg";
 
 function Login() {
   return (
-    <div className='container'>
-        hello I am login
+    <div className="container">
+      <img src={spotifyImage} alt="spofity-background"/>
+      <a href="#">LOGIN WITH SPOTIFY</a>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
