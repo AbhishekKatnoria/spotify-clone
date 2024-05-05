@@ -1,12 +1,12 @@
-import React from "react";
 import "./Login.css";
 import spotifyImage from "../assets/spofity-image.jpg";
+import { loginUrl } from "../spotify";
 
 function Login() {
   return (
     <div className="container">
-      <img src={spotifyImage} alt="spofity-background"/>
-      <a href="#">LOGIN WITH SPOTIFY</a>
+      <img src={spotifyImage} alt="spofity-background" />
+      <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
     </div>
   );
 }
