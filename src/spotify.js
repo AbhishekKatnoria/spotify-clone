@@ -10,6 +10,7 @@ const scopes = [
   "user-top-read",
   "user-modify-playback-state",
 ];
+console.log(window.location.hash)
 export const getTokenFromUrl = () => {
   return window.location.hash
     .substring(1)
